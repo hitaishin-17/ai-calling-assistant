@@ -108,8 +108,8 @@ GROQ_API_KEY=your_groq_key
 Hi, I’m Hitaishi N — a Product Manager passionate about intelligent systems and voice-first automation.
 
 I built this to showcase:
-	•	AI-powered execution, not just scoring
-	•	Real-world friction turned into structured product
-	•	Full-stack thinking — from prompt to phone to calendar
+- AI-powered execution, not just scoring
+- Real-world friction turned into structured product
+- Full-stack thinking — from prompt to phone to calendar
 
 Let’s connect on [LinkedIn](https://www.linkedin.com/in/hitaishi-n-grovista)!
