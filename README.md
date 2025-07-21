@@ -25,7 +25,7 @@ This project solves that by using **voice + AI** to go beyond dashboards and act
 | **AI Product Fluency**          | Used Groq-hosted LLaMA models for real-time call logic         |
 | **System Thinking**             | End-to-end flow: lead prep → call strategy → booking           |
 | **Human-in-the-Loop Awareness** | Detects unclear cases and gracefully routes to human fallback  |
-| **Compliance Thinking**         | Designed with GDPR-conscious architecture and data handling    |
+| **Compliance Thinking**         | Designed with **GDPR-conscious** architecture and data handling    |
 | **Cross-Functional Execution**  | Built API, voice layer, AI prompt logic, and calendar sync     |
 
 This project reflects how I take a **real user pain**, translate it into **product logic**, and build a working MVP with measurable value.
