@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+twilio:
+  account_sid:
+  auth_token: 
+  from_number: +16073604627
+  twiml_base_url: https://7130912afb4f.ngrok-free.app/api/twiml
+  callback_base_url: https://7130912afb4f.ngrok-free.app
+
+#groq:
+ # api_key:
