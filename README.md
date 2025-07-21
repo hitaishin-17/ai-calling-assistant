@@ -98,7 +98,7 @@ GROQ_API_KEY=your_groq_key
 	1. 	Streaming voice recognition (STT → AI → TTS loop)
  	2. 	Lead enrichment from CRM before calling
   	3. 	Multi-language support
-   	4. 	React dashboard for live call tracking
+   	4.	React dashboard for live call tracking
     	5. 	Zapier / Slack integration
      	6. 	GDPR-compliant logging & audit trail
 
