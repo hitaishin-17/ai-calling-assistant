@@ -6,13 +6,34 @@
 
 ## Overview
 
-This project brings together conversational AI, lifelike voice synthesis, and intelligent call flow logic to create a virtual sales rep. With zero human intervention, it:
+AI Calling Assistant is a smart voice automation tool designed for outbound sales. It combines contextual lead intelligence, lifelike TTS voice, and AI-powered response logic to simulate real human phone calls — and drive actual outcomes like booked appointments. It:
 
 - Prepares context from lead + company info
 - Generates a dynamic strategy using AI
 - Makes real-time calls using Twilio
 - Handles objections and fallback scenarios
 - Books calendar meetings automatically
+
+---
+## Product Thinking Behind This Project
+
+As a Product Manager, I’ve seen the friction in scaling outbound sales:
+
+- Scripts are rigid and break under real-world objections.
+- SDRs lose hours on low-quality leads.
+- AI tools often stop at lead scoring — not action.
+
+This project solves that by using **voice + AI** to go beyond dashboards and actually **talk to leads**.
+
+| Skill                        | Demonstrated Through                                           |
+|-----------------------------|----------------------------------------------------------------|
+| **Voice + AI Workflow Design** | Twilio TTS integrated with LLM-based dynamic response generation |
+| **AI Product Fluency**          | Used Groq-hosted LLama models for real-time call logic         |
+| **System Thinking**             | End-to-end flow: lead prep → call strategy → booking           |
+| **Cross-Functional Execution**  | Built API, voice layer, AI prompt logic, and calendar sync     |
+| **Real-World Application**      | Handles objections, reschedules, fallback logic included       |
+
+This project reflects how I take a **real user pain**, translate it into **product logic**, and build a working MVP with measurable value.
 
 ---
 
@@ -30,13 +51,14 @@ This project brings together conversational AI, lifelike voice synthesis, and in
 
 ---
 
-## ✨ Features
+## Features
 
-- AI-generated, personalized call scripts
-- Natural voice via Twilio TTS (Text-to-Speech)
-- Handles objections and fallbacks
-- Auto-schedules meetings post-call
-- Modular architecture for easy extensibility
+- AI-generated call strategy (using Groq + LLaMA)
+- Real-time calling via Twilio + TTS
+- Human-like voice with dynamic prompts
+- Objection handling and fallback support
+- Automatic appointment booking + calendar invite
+- Modular, API-first backend built in Java
 
 ---
 
@@ -49,6 +71,13 @@ cd ai-calling-assistant-java/backend
 
 # Open in IntelliJ or your favorite IDE
 # Make sure to add your Twilio + Groq keys in application.properties or .env
+
+TWILIO_ACCOUNT_SID=your_sid
+TWILIO_AUTH_TOKEN=your_token
+TWILIO_PHONE_NUMBER=your_twilio_number
+
+GROQ_API_KEY=your_groq_key
+
 ```
 
 ## Sample Flow
@@ -57,3 +86,21 @@ cd ai-calling-assistant-java/backend
 	3.	Twilio places the call and speaks using TTS
 	4.	AI responds to live inputs (or fallback scripts)
 	5.	Appointment is booked + calendar invite sent
+
+## Future Enhancements
+	1. Streaming voice recognition (STT → AI → TTS loop)
+ 	2. Lead enrichment from CRM before calling
+  	3. Multi-language support
+   	4. React dashboard for live call tracking
+    	5. Zapier / Slack integration
+
+## 📩 About the Creator
+
+Hi, I’m Hitaishi N — a Product Manager passionate about intelligent systems and voice-first automation.
+
+I built this to showcase:
+	•	AI-powered execution, not just scoring
+	•	Real-world friction turned into structured product
+	•	Full-stack thinking — from prompt to phone to calendar
+
+Let’s connect on [LinkedIn](www.linkedin.com/in/hitaishi-n-grovista)!
