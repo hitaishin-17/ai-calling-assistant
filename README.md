@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **AI Calling Assistant** is a smart voice automation tool built for outbound sales. It combines:
 
@@ -16,7 +16,7 @@ It doesn't just score leads — it **calls them**, handles objections, and sched
 
 ---
 
-## 🧠 Product Thinking Behind the Build
+## Product Thinking Behind the Build
 
 As a **Product Manager**, I’ve seen where outbound sales efforts break:
 
@@ -37,19 +37,19 @@ This tool was built to **replace manual outreach** with a fully autonomous voice
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 AI-generated call scripts using Groq + LLaMA
-- ☎️ Real-time outbound calling with lifelike voice (Twilio TTS)
-- 🗣️ Handles objections + fallback scenarios
-- 👤 Escalates to a human rep if needed
-- 📅 Auto-books calendar invites
-- 🔐 GDPR + AU Privacy Act conscious
-- 🧩 Modular, API-first backend (Java + Spring Boot)
+- AI-generated call scripts using Groq + LLaMA
+- Real-time outbound calling with lifelike voice (Twilio TTS)
+- Handles objections + fallback scenarios
+- Escalates to a human rep if needed
+- Auto-books calendar invites
+- GDPR + AU Privacy Act conscious
+- Modular, API-first backend (Java + Spring Boot)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer         | Tech                         |
 |---------------|------------------------------|
