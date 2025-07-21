@@ -95,12 +95,13 @@ GROQ_API_KEY=your_groq_key
 	6.	If AI is unsure or detects complexity → routes to a human rep
 
 ## Future Enhancements
-	1. 	Streaming voice recognition (STT → AI → TTS loop)
- 	2. 	Lead enrichment from CRM before calling
-  	3. 	Multi-language support
-   	4.	React dashboard for live call tracking
-    	5. 	Zapier / Slack integration
-     	6. 	GDPR-compliant logging & audit trail
+
+1. Streaming voice recognition (STT → AI → TTS loop)
+2. Lead enrichment from CRM before calling
+3. Multi-language support
+4. React dashboard for live call tracking
+5. Zapier / Slack integration
+6. GDPR-compliant logging & audit trail
 
 ## 📩 About the Creator
 
