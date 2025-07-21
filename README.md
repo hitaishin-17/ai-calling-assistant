@@ -111,4 +111,4 @@ I built this to showcase:
 	•	Real-world friction turned into structured product
 	•	Full-stack thinking — from prompt to phone to calendar
 
-Let’s connect on [LinkedIn](www.linkedin.com/in/hitaishi-n-grovista)!
+Let’s connect on [LinkedIn](https://www.linkedin.com/in/hitaishi-n-grovista)!
