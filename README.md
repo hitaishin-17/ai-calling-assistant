@@ -1,73 +1,66 @@
 # AI Calling Assistant (Java)
-> A fully automated AI-powered calling assistant that engages leads, responds like a real salesperson, and books meetings — with zero human intervention — unless absolutely necessary.
+
+> A fully automated AI-powered calling assistant that engages leads, responds like a real salesperson, and books meetings — with zero human intervention (unless absolutely necessary).
 
 ---
 
-## Overview
+## 🚀 Overview
 
-AI Calling Assistant is a smart voice automation tool designed for outbound sales. It combines contextual lead intelligence, lifelike TTS voice, and AI-powered response logic to simulate real human phone calls — and drive actual outcomes like booked appointments.
+**AI Calling Assistant** is a smart voice automation tool built for outbound sales. It combines:
 
----
+- Contextual lead intelligence  
+- Human-like TTS voice (via Twilio)  
+- Dynamic AI logic (via Groq-hosted LLaMA)
 
-## Product Thinking Behind This Project
-
-As a Product Manager, I’ve seen the friction in scaling outbound sales:
-
-- Scripts are rigid and break under real-world objections.
-- SDRs lose hours on low-quality leads.
-- AI tools often stop at lead scoring — not action.
-
-This project solves that by using **voice + AI** to go beyond dashboards and actually **talk to leads**.
-
-| Skill                        | Demonstrated Through                                           |
-|-----------------------------|----------------------------------------------------------------|
-| **Voice + AI Workflow Design** | Twilio TTS integrated with LLM-based dynamic response generation |
-| **AI Product Fluency**          | Used Groq-hosted LLaMA models for real-time call logic         |
-| **System Thinking**             | End-to-end flow: lead prep → call strategy → booking           |
-| **Human-in-the-Loop Awareness** | Detects unclear cases and gracefully routes to human fallback  |
-| **Compliance Thinking**         | Designed with **GDPR-conscious** architecture and data handling    |
-| **Cross-Functional Execution**  | Built API, voice layer, AI prompt logic, and calendar sync     |
-
-This project reflects how I take a **real user pain**, translate it into **product logic**, and build a working MVP with measurable value.
+It doesn't just score leads — it **calls them**, handles objections, and schedules appointments. Think: your best SDR, available 24/7.
 
 ---
 
-##  Features
+## 🧠 Product Thinking Behind the Build
 
-- AI-generated call strategy (using Groq + LLaMA)
-- Real-time calling via Twilio + TTS
-- Human-like voice with dynamic prompts
-- Objection handling and fallback support
-- **Graceful fallback to human rep** when uncertain or escalated
-- Automatic appointment booking + calendar invite
-- Designed with **GDPR awareness** (no PII stored without consent)
-- Modular, API-first backend built in Java
+As a **Product Manager**, I’ve seen where outbound sales efforts break:
+
+- Scripts fail under pressure.
+- SDRs burn time on low-quality leads.
+- AI tools stop at dashboards — not results.
+
+This tool was built to **replace manual outreach** with a fully autonomous voice experience that still feels personal and strategic.
+
+| Skill                        | Demonstrated Through                                               |
+|-----------------------------|----------------------------------------------------------------------|
+| Voice + AI Workflow Design  | Twilio TTS + LLaMA integration for dynamic, real-time conversations |
+| AI Product Fluency          | Prompt design + output parsing from Groq-hosted models              |
+| System Thinking             | End-to-end: lead → AI strategy → voice call → booking               |
+| Human-in-the-Loop Awareness | Routes unclear cases to real reps when needed                       |
+| Compliance Mindset          | GDPR/AU Privacy Act-aware architecture                              |
+| Cross-Functional Execution  | Built backend, AI logic, Twilio stack, and calendar sync            |
+
 ---
 
-## Tech Stack
+## ✨ Features
 
-| Layer         | Technology                   |
+- 🧠 AI-generated call scripts using Groq + LLaMA
+- ☎️ Real-time outbound calling with lifelike voice (Twilio TTS)
+- 🗣️ Handles objections + fallback scenarios
+- 👤 Escalates to a human rep if needed
+- 📅 Auto-books calendar invites
+- 🔐 GDPR + AU Privacy Act conscious
+- 🧩 Modular, API-first backend (Java + Spring Boot)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Tech                         |
 |---------------|------------------------------|
 | Backend       | Java + Spring Boot           |
-| Voice Calling | Twilio (TwiML, TTS)          |
-| AI Engine     | Groq API (easily swappable)  |
-| Prompt Design | Custom prompt scripting      |
-| Frontend (Optional) | React (for dashboard)  |
-
-
----
-
-## Features
-
-- AI-generated call strategy (using Groq + LLaMA)
-- Real-time calling via Twilio + TTS
-- Human-like voice with dynamic prompts
-- Objection handling and fallback support
-- Automatic appointment booking + calendar invite
-- Modular, API-first backend built in Java
+| Voice Engine  | Twilio (TwiML, TTS)          |
+| AI Layer      | Groq-hosted LLaMA            |
+| Prompt Logic  | Custom scripting             |
+| Calendar Sync | ICS-based invite generator   |
+| Frontend      | *(Optional)* React dashboard |
 
 ---
-
 ## Getting Started
 
 ```bash
@@ -101,15 +94,15 @@ GROQ_API_KEY=your_groq_key
 3. Multi-language support
 4. React dashboard for live call tracking
 5. Zapier / Slack integration
-6. GDPR-compliant logging & audit trail
+6. GDPR/AU-compliant logging & audit trail
 
 ## 📩 About the Creator
 
-Hi, I’m Hitaishi N — a Product Manager passionate about intelligent systems and voice-first automation.
+Hi, I’m Hitaishi N — I build intelligent, voice-first systems that turn ambiguity into action.
 
-I built this to showcase:
-- AI-powered execution, not just scoring
-- Real-world friction turned into structured product
-- Full-stack thinking — from prompt to phone to calendar
+This project started with a simple frustration: sales teams were spending hours chasing leads, yet most conversations felt robotic or went nowhere. I wanted to build something that could handle the entire flow — from context to conversation to calendar — without the need for constant human input.
+
+So I prototyped fast, kept things modular, and shipped something that actually calls people, handles objections, and gets results — all while respecting data privacy across the UK, EU, and Australia.
+
 
 Let’s connect on [LinkedIn](https://www.linkedin.com/in/hitaishi-n-grovista)!
