@@ -92,7 +92,7 @@ GROQ_API_KEY=your_groq_key
 ## 📽️ Demo & Screenshots
 
 ### Voice Call in Action (Terminal Trigger)
-![Voice Trigger](demo/voice-trigger-terminal.png)
+![Voice Trigger](demo/voice-trigger-terminal.jpeg)
 
 ### Sample AI Response (Console Output)
 ![AI Response](demo/ai-response-output1.png)
