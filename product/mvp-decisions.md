@@ -54,7 +54,7 @@ We followed **Agile delivery with a Kanban flow** inside JIRA for:
 - Logging learning loops weekly
 - Ensuring lean scope for voice-first UX
 
-📎 Screenshot: `product/kanban-board.png`
+📎 Screenshot: `..product/kanban-board.png`
 
 ---
 
