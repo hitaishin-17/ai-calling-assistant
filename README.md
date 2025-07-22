@@ -87,6 +87,20 @@ GROQ_API_KEY=your_groq_key
 	5.	Appointment is booked and invite is sent
 	6.	If AI is unsure or detects complexity → routes to a human rep
 
+ ---
+
+## 📽️ Demo & Screenshots
+
+### Voice Call in Action (Terminal Trigger)
+![Voice Trigger](demo/voice-trigger-terminal.png)
+
+### Sample AI Response (Console Output)
+![AI Response](demo/ai-response-output1.png)
+
+> 👉 Watch the demo video: [Click to View](https://www.loom.com/share/your-demo-link)
+
+---
+
 ## Future Enhancements
 
 1. Streaming voice recognition (STT → AI → TTS loop)
