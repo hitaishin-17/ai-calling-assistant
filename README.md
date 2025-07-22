@@ -97,7 +97,7 @@ GROQ_API_KEY=your_groq_key
 ### Sample AI Response (Console Output)
 ![AI Response](demo/ai-response-output1.png)
 
-> 👉 Watch the demo video: [Click to View](https://www.loom.com/share/your-demo-link)
+> 👉 Watch the demo video: [Click to View](https://drive.google.com/file/d/1t2GFwdMOtbZxoA1IWTVuvOu9nz4eYJW0/view?usp=sharing)
 
 ---
 
