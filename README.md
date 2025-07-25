@@ -1,6 +1,6 @@
 # AI Calling Assistant (Java)
 
-> AI Calling Assistant is a fully autonomous voice agent that simulates real sales conversations, handles objections, and books meetings — with zero manual intervention(unless its necessary).
+> AI Calling Assistant is a fully autonomous voice agent that simulates real sales conversations, handles objections, and books meetings — with zero manual intervention (unless it's necessary).
 
 ---
 
@@ -15,6 +15,10 @@
 It doesn't just score leads — it **calls them**, handles objections, and schedules appointments. Think: your best SDR, available 24/7.
 
 ---
+### Example User Story
+As a Sales Ops Lead,  
+I want to automate outbound lead calls,  
+So that I can increase demo bookings without scaling SDR headcount.
 
 ## Product Thinking Behind the Build
 
@@ -112,7 +116,7 @@ GROQ_API_KEY=your_groq_key
 ### Sample AI Response (Console Output)
 ![AI Response](demo/ai-response-output1.png)
 
-> 👉 Watch the demo video: [Click to View](https://drive.google.com/file/d/1t2GFwdMOtbZxoA1IWTVuvOu9nz4eYJW0/view?usp=sharing)
+### 🎥 Watch the demo video: [Click to View](https://drive.google.com/file/d/1t2GFwdMOtbZxoA1IWTVuvOu9nz4eYJW0/view?usp=sharing)
 
 ---
 
@@ -125,7 +129,9 @@ GROQ_API_KEY=your_groq_key
 5. Zapier / Slack integration
 6. GDPR/AU-compliant logging & audit trail
 
-## 📩 About the Creator
+These enhancements aim to improve personalization, observability, and real-time control.
+
+## 📩 About Me
 
 Hi, I’m Hitaishi N — I build intelligent, voice-first systems that turn ambiguity into action.
 
