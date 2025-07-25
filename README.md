@@ -1,6 +1,6 @@
 # AI Calling Assistant (Java)
 
-> A fully automated AI-powered calling assistant that engages leads, responds like a real salesperson, and books meetings — with zero human intervention (unless absolutely necessary).
+> AI Calling Assistant is a fully autonomous voice agent that simulates real sales conversations, handles objections, and books meetings — with zero manual intervention(unless its necessary).
 
 ---
 
@@ -26,6 +26,14 @@ As a **Product Manager**, I’ve seen where outbound sales efforts break:
 
 This tool was built to **replace manual outreach** with a fully autonomous voice experience that still feels personal and strategic.
 
+## My Role (as PM)
+	•	Defined user flow and call logic based on sales team pain points
+	•	Integrated voice (Twilio) and AI (LLaMA) into a seamless loop
+	•	Balanced automation with human fallback design
+	•	Wrote prompt logic and validated outputs in test calls
+	•	Prioritized privacy and modularity for real-world deployment
+ 
+
 | Skill                        | Demonstrated Through                                               |
 |-----------------------------|----------------------------------------------------------------------|
 | Voice + AI Workflow Design  | Twilio TTS + LLaMA integration for dynamic, real-time conversations |
@@ -48,6 +56,10 @@ This tool was built to **replace manual outreach** with a fully autonomous voice
 - Modular, API-first backend (Java + Spring Boot)
 
 ---
+## Potential Impact
+- Reduce manual outreach by 80% per SDR
+- Enable 24/7 lead engagement without burnout
+- Increase speed-to-contact from hours to seconds
 
 ## Tech Stack
 
@@ -90,6 +102,9 @@ GROQ_API_KEY=your_groq_key
  ---
 
 ## 📽️ Demo & Screenshots
+
+### Architecture Overview
+![Architecture Diagram](docs/architecture.png)
 
 ### Voice Call in Action (Terminal Trigger)
 ![Voice Trigger](demo/voice-trigger-terminal.jpeg)
