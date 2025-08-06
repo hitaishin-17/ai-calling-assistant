@@ -1,4 +1,3 @@
-![Architecture Diagram](docs/architecture.png)
 # AI Calling Assistant (Java)
 
 > AI Calling Assistant is a fully autonomous voice agent that simulates real sales conversations, handles objections, and books meetings — with zero manual intervention (unless it's necessary).
