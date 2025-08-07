@@ -2,7 +2,8 @@
 
 > AI Calling Assistant is a fully autonomous voice agent that simulates real sales conversations, handles objections, and books meetings — with zero manual intervention (unless it's necessary).
 
-📽️ [Watch Demo](https://drive.google.com/file/d/1t2GFwdMOtbZxoA1IWTVuvOu9nz4eYJW0/view?usp=sharing) • 🧠 [Architecture Diagram](docs/architecture.png) 
+[Watch Demo](https://drive.google.com/file/d/1t2GFwdMOtbZxoA1IWTVuvOu9nz4eYJW0/view?usp=sharing)  
+[Architecture Diagram](docs/architecture.png) 
 ---
 
 ## Overview
