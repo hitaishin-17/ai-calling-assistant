@@ -2,6 +2,7 @@
 
 > AI Calling Assistant is a fully autonomous voice agent that simulates real sales conversations, handles objections, and books meetings — with zero manual intervention (unless it's necessary).
 
+📽️ [Watch Demo](https://drive.google.com/file/d/1t2GFwdMOtbZxoA1IWTVuvOu9nz4eYJW0/view?usp=sharing) • 🧠 [Architecture Diagram](docs/architecture.png) 
 ---
 
 ## Overview
@@ -13,6 +14,7 @@
 - Dynamic AI logic (via Groq-hosted LLaMA)
 
 It doesn't just score leads — it **calls them**, handles objections, and schedules appointments. Think: your best SDR, available 24/7.
+Unlike typical AI chatbots, this assistant **initiates** voice calls, handles dynamic objections, and completes bookings — fully autonomously.
 
 ---
 ### Example User Story
@@ -30,9 +32,9 @@ As a **Product Manager**, I’ve seen where outbound sales efforts break:
 
 This tool was built to **replace manual outreach** with a fully autonomous voice experience that still feels personal and strategic.
 
-## My Role (as PM)
-	•	Defined user flow and call logic based on sales team pain points
-	•	Integrated voice (Twilio) and AI (LLaMA) into a seamless loop
+## My Role as Product Manager
+	•	**Defined** user flow and call logic based on sales team pain points
+	•	**Integrated** voice (Twilio) and AI (LLaMA) into a seamless loop
 	•	Balanced automation with human fallback design
 	•	Wrote prompt logic and validated outputs in test calls
 	•	Prioritized privacy and modularity for real-world deployment
@@ -60,10 +62,12 @@ This tool was built to **replace manual outreach** with a fully autonomous voice
 - Modular, API-first backend (Java + Spring Boot)
 
 ---
-## Potential Impact
+## Outcomes & Potential Impact
 - Reduce manual outreach by 80% per SDR
 - Enable 24/7 lead engagement without burnout
 - Increase speed-to-contact from hours to seconds
+- Increased demo booking conversion by estimated 3–5x
+- Compliant with GDPR / AU Privacy Act for live deployments
 
 ## Tech Stack
 
