@@ -34,11 +34,11 @@ As a **Product Manager**, I’ve seen where outbound sales efforts break:
 This tool was built to **replace manual outreach** with a fully autonomous voice experience that still feels personal and strategic.
 
 ## My Role as Product Manager
-	•	**Defined** user flow and call logic based on sales team pain points
-	•	**Integrated** voice (Twilio) and AI (LLaMA) into a seamless loop
-	•	Balanced automation with human fallback design
-	•	Wrote prompt logic and validated outputs in test calls
-	•	Prioritized privacy and modularity for real-world deployment
+- **Defined** user flow and call logic based on sales team pain points  
+- **Integrated** voice (Twilio) and AI (LLaMA) into a seamless loop  
+- **Balanced** automation with human fallback design  
+- **Wrote** prompt logic and validated outputs in test calls  
+- **Prioritized** privacy and modularity for real-world deployment  
  
 
 | Skill                        | Demonstrated Through                                               |
