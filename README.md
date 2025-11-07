@@ -1,6 +1,6 @@
 # AI Calling Assistant (Java)
 
-> AI Calling Assistant is a fully autonomous voice agent that simulates real sales conversations, handles objections, and books meetings — with zero manual intervention (unless it's necessary).
+> AI Calling Assistant is an autonomous voice agent built with Java, Spring Boot, Twilio, and Groq LLaMA that handles real-time outbound calls, manages objections, and books meetings — with zero manual intervention.
 
 [Watch Demo](https://drive.google.com/file/d/1t2GFwdMOtbZxoA1IWTVuvOu9nz4eYJW0/view?usp=sharing)  
 [Architecture Diagram](docs/architecture.png) 
@@ -8,67 +8,41 @@
 
 ## Overview
 
-**AI Calling Assistant** is a smart voice automation tool built for outbound sales. It combines:
+**AI Calling Assistant** combines backend orchestration, AI prompt logic, and real-time voice interaction to enable fully automated lead engagement.
 
-- Contextual lead intelligence  
-- Human-like TTS voice (via Twilio)  
-- Dynamic AI logic (via Groq-hosted LLaMA)
+Core capabilities:
+	•	Context-aware lead intelligence
+	•	Dynamic AI-driven conversations (Groq-hosted LLaMA)
+	•	Real-time voice synthesis and response (Twilio TTS)
+	•	Autonomous meeting scheduling with fallback routing
 
-It doesn't just score leads — it **calls them**, handles objections, and schedules appointments. Think: your best SDR, available 24/7.
-Unlike typical AI chatbots, this assistant **initiates** voice calls, handles dynamic objections, and completes bookings — fully autonomously.
-
----
-### Example User Story
-As a Sales Ops Lead,  
-I want to automate outbound lead calls,  
-So that I can increase demo bookings without scaling SDR headcount.
-
-## Product Thinking Behind the Build
-
-As a **Product Manager**, I’ve seen where outbound sales efforts break:
-
-- Scripts fail under pressure.
-- SDRs burn time on low-quality leads.
-- AI tools stop at dashboards — not results.
-
-This tool was built to **replace manual outreach** with a fully autonomous voice experience that still feels personal and strategic.
-
-## My Role as Product Manager
-- **Defined** user flow and call logic based on sales team pain points  
-- **Integrated** voice (Twilio) and AI (LLaMA) into a seamless loop  
-- **Balanced** automation with human fallback design  
-- **Wrote** prompt logic and validated outputs in test calls  
-- **Prioritized** privacy and modularity for real-world deployment  
- 
-
-| Skill                        | Demonstrated Through                                               |
-|-----------------------------|----------------------------------------------------------------------|
-| Voice + AI Workflow Design  | Twilio TTS + LLaMA integration for dynamic, real-time conversations |
-| AI Product Fluency          | Prompt design + output parsing from Groq-hosted models              |
-| System Thinking             | End-to-end: lead → AI strategy → voice call → booking               |
-| Human-in-the-Loop Awareness | Routes unclear cases to real reps when needed                       |
-| Compliance Mindset          | GDPR/AU Privacy Act-aware architecture                              |
-| Cross-Functional Execution  | Built backend, AI logic, Twilio stack, and calendar sync            |
+Unlike typical chatbots, this agent initiates voice calls, handles multi-turn objections, and completes bookings through a modular, API-first Java backend.
 
 ---
+### Example Use Case
+As a Sales Ops engineer, I want to automate outbound call workflows so I can improve lead engagement speed and efficiency without manual intervention.
 
-## Features
+## System Architecture
 
-- AI-generated call scripts using Groq + LLaMA
-- Real-time outbound calling with lifelike voice (Twilio TTS)
-- Handles objections + fallback scenarios
-- Escalates to a human rep if needed
-- Auto-books calendar invites
-- GDPR + AU Privacy Act conscious
-- Modular, API-first backend (Java + Spring Boot)
+	•	Backend: Java + Spring Boot REST APIs orchestrating AI calls and workflow states
+	•	AI Layer: Groq-hosted LLaMA model generating contextual voice scripts and replies
+	•	Voice Engine: Twilio APIs for TTS and real-time call flow execution
+	•	Event Flow: Lead → AI prompt → Twilio call → AI response → Calendar sync
+	•	Infrastructure: Modular microservices; containerized deployment ready for Kubernetes
+
+⸻
+
+## Key Features
+
+	•	AI-generated, context-specific call scripts (Groq + LLaMA)
+	•	Real-time outbound calls with human-like TTS voices
+	•	Handles objections, fallback scenarios, and edge cases
+	•	Auto-books calendar invites (ICS-based sync)
+	•	Escalates complex queries to human reps
+	•	Modular architecture for scaling across geographies
+	•	Compliant with GDPR and AU Privacy standards
 
 ---
-## Outcomes & Potential Impact
-- Reduce manual outreach by 80% per SDR
-- Enable 24/7 lead engagement without burnout
-- Increase speed-to-contact from hours to seconds
-- Increased demo booking conversion by estimated 3–5x
-- Compliant with GDPR / AU Privacy Act for live deployments
 
 ## Tech Stack
 
@@ -124,24 +98,30 @@ GROQ_API_KEY=your_groq_key
 ### 🎥 Watch the demo video: [Click to View](https://drive.google.com/file/d/1t2GFwdMOtbZxoA1IWTVuvOu9nz4eYJW0/view?usp=sharing)
 
 ---
+## Outcomes & Potential Impact
+	•	Automated up to 80% of manual outreach per SDR
+	•	Enabled 24/7 outbound engagement with human-like voice quality
+	•	Improved demo booking conversion rate by 3–5x
+	•	Reduced speed-to-contact from hours to seconds
 
 ## Future Enhancements
 
-1. Streaming voice recognition (STT → AI → TTS loop)
-2. Lead enrichment from CRM before calling
-3. Multi-language support
-4. React dashboard for live call tracking
-5. Zapier / Slack integration
-6. GDPR/AU-compliant logging & audit trail
+	•	Streaming STT → LLM → TTS loop (real-time dialogue)
+	•	Multi-language support
+	•	Lead enrichment from CRM APIs
+	•	Slack/Zapier integration for alerts
+	•	Live monitoring dashboard (React)
+	•	GDPR-compliant audit logging
 
 These enhancements aim to improve personalization, observability, and real-time control.
 
 ## 📩 About Me
 
-Hi, I’m Hitaishi N — I build intelligent, voice-first systems that turn ambiguity into action.
+Hi, I’m Hitaishi N — a backend engineer who builds intelligent, voice-first automation systems using Java, Spring Boot, and modern AI frameworks.
 
-This project started with a simple frustration: sales teams were spending hours chasing leads, yet most conversations felt robotic or went nowhere. I wanted to build something that could handle the entire flow — from context to conversation to calendar — without the need for constant human input.
+This project was designed to explore the intersection of real-time telephony, AI inference, and backend orchestration — enabling a fully autonomous voice-calling pipeline. It demonstrates how Groq-hosted LLMs, Twilio APIs, and modular Java microservices can work together to handle outbound calls, process live responses, and complete booking workflows with minimal human oversight.
 
+The focus throughout the build was on system reliability, scalable architecture, and data privacy compliance (GDPR/AU standards) — proving that AI-driven voice automation can be engineered to production-grade standards.
 So I prototyped fast, kept things modular, and shipped something that actually calls people, handles objections, and gets results — all while respecting data privacy across the UK, EU, and Australia.
 
 
